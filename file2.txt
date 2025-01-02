@@ -1,1 +1,17 @@
 спасибо лучше всех просто великолепно   //  gracias lo mejor de todo simplemente genial
+
+допустим у меня создан репозиторий на локальном 
+компьютере как теперь его отправить на гитхаб
+
+несколько шагов для того чтоб это сделать:
+
+1. cd /home/dmitriy/Documents/reho/git_game_trening
+2. git init
+3. git remote add origin https://github.com/ваш_логин/имя_репозитория.git
+   (Замените ваш_логин на ваш логин на GitHub,
+    а имя_репозитория на имя вашего репозитория на GitHub.)
+4.git add .
+  git commit -m "Initial commit"
+5.  git push -u origin master
+
+
